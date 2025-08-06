@@ -92,9 +92,11 @@ img {
     padding: 20px;
 }
 
-@media (max-width: 600px) {
+
+
+@media (min-width: 400px) {
     body {
-        background-color: rgb(151, 32, 151);
+        background-color: red;
     }
 
     nav {
@@ -104,8 +106,19 @@ img {
         overflow: hidden;
     }
 
+    nav ul {
+        gap: 1px;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
     .about-section {
         flex-direction: column;
+    }
+
+    article h2 {
+        font-size: 15px;
     }
 
     .footer-section a {
@@ -114,8 +127,20 @@ img {
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 800px) {
     body {
         background-color: yellow;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        background-color: rgb(11, 11, 0);
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: green;
     }
 }
