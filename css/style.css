@@ -90,10 +90,12 @@ img {
 .footer-section {
     color: black;
     padding: 20px;
-    width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(151, 32, 151);
+    }
 
     nav {
         flex-direction: column;
@@ -110,5 +112,10 @@ img {
         margin: auto;
         padding: 20px;
     }
+}
 
+@media (max-width: 1200px) {
+    body {
+        background-color: yellow;
+    }
 }
