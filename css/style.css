@@ -8,6 +8,8 @@ body {
 
 .container {
     padding: 0 1rem;
+
+
 }
 
 nav {
@@ -59,7 +61,7 @@ nav ul li a {
 .project-boxes {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 10rem;
 }
 
 .project-card {
